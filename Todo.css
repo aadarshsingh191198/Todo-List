@@ -1,0 +1,62 @@
+body{
+	box-sizing: content-box;
+	background: -webkit-linear-gradient(left, #f7fbf9, #54524b);
+	background: -o-linear-gradient(left, #f7fbf9, #54524b);
+	background: linear-gradient(to right, #f7fbf9, #54524b);
+	font-family: comic sans ms;
+}
+
+h1{
+	font-weight: 800;
+	font-size:4.7em;
+	text-align: center;
+	-webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-family: /*courier*/ /*georgia*/ garamond;
+	color: #ebebeb;
+}
+
+.tasks{
+	background-color:#ebebeb;
+	padding: 9px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+.container{
+	max-width : 400px;
+	border:2px solid #4c4141;
+	border-radius:10px;
+	padding:0px; 
+}
+
+#top{
+	margin-top:15vh;
+	margin-bottom:2px;
+}
+
+input{
+	width: -webkit-fill-available;
+	border:none;
+	border-bottom: 2px #999 dashed;
+	padding-bottom:3px;
+	background-color: rgba(0,0,0,0);
+}
+.action{
+	display:none;
+}
+
+#form{
+	margin:5px;
+}
+
+
+.done{
+	text-decoration: line-through;
+}
+input::placeholder {
+  color: white;
+}
+
+
+}
